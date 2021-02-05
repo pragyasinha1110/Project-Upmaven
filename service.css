@@ -1,0 +1,353 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+}
+.upper-div{
+    width: 100%;
+    /* height: 5rem; */
+    background-color: #ececec;
+}
+.upper-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4.5rem 0rem 4.5rem;
+}
+.left-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 30rem;
+}
+
+
+
+.right-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 8rem;
+}
+
+.left-element li a{
+    text-decoration: none;
+    color: black;
+}
+
+.right-element li a{
+    text-decoration: none;
+    color: #02033E;
+}
+.left-element li i{
+    color: #F48529;
+}
+.left-element li a{
+    color: #02033E !important;
+    font-weight: 500;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+    background-color: #fff;
+    padding: 0.2rem 3rem;
+    height: 5rem;
+}
+.Logo{
+    width: 10rem;
+}
+.navbar-nav li a{
+    color: black !important;
+    font-weight: 500;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.navbar-nav li a:hover{
+    color: #F48529 !important;
+    transform: translateY(-.2rem);
+}
+.drop-list a{
+    line-height: 2.2rem !important;
+    text-decoration: none !important;
+    
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+.hero-content h6{
+    color: #f48429;
+}
+.hero-content .color{
+    color: #f48429;
+    font-size: 3.3rem;
+}
+.hero-content h1{
+    font-size: 3.3rem;
+    font-weight: 800;
+}
+.hero-content p{
+    color: rgb(134, 134, 134);
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.service-buttons{
+    color: white;
+    width: 53%;
+    margin-top: 2rem;
+    animation: moveInBottomservice .5s ease-out;
+}
+
+.about-content{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+#extra-div{
+    margin-top: 5rem;
+}
+#extra-div h5{
+    font-size: 1.3rem;
+    font-weight: 640;
+}
+.img-card{
+    max-width: 6rem !important;
+    padding: 1rem;
+}
+.img-card img{
+    width: 100%;
+}
+.card-size{
+    width: 15rem !important;
+}
+.card-size:hover{
+    background-image: linear-gradient(to right, #f48429, #ea9f61 );
+    transform: translateY(-1rem);
+    transition: all .4s;
+    color: white;
+}
+#our-strategy img{
+    width: 100%;
+}
+.strategy{
+    width: 30rem !important;   
+}
+#our-strategy .bar{
+    margin-bottom: 3rem !important;
+}
+#our-strategy h1{
+    margin-top: 5rem;
+}
+#our-service-part{
+    margin-top: 8rem !important;
+}
+#our-service-part h4{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem !important;
+    color: #02033E;
+}
+.img-services{
+    margin: 0 auto;
+}
+.image-service{
+    margin-left: 12rem !important;
+}
+.image-right{
+    margin-left: 12rem !important;
+}
+
+@keyframes moveInBottomservice{
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+          opacity: 1;
+          transform: translateX(0);
+    }
+}
+.exploremore{
+    padding: 0.7rem 2rem;
+    border: 1px solid white;
+    border-radius: 100px;
+    background: none;
+    color: white;
+}
+.exploremore:hover, .service-buttons li a:hover{
+    background-image: linear-gradient(to right, #F48529, #EA9F61 );
+    border: none;
+    color: whitesmoke;
+}
+.bar{
+    width: 18rem;
+    height: .3rem;
+    background-color: #F48529;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.bar-second{
+    width: 5rem;
+    height: .5rem;
+    background-color: #0C0F74;
+    border-radius: 10px;
+    margin: 0 auto;
+    transform: translateY(-.1rem);
+}
+.footer-logo{
+    width: 12rem;
+}
+.footer-logo img{
+    width: 100%;
+}
+.left-footer h4{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.left-footer p{
+    line-height: .5rem;
+}
+.footer-content{
+    margin-top: 1rem;
+    margin-left: 1.9rem;
+}
+.footer-content h5{
+    font-weight: 700;
+    color: #F48529;
+}
+.footer-content ul li a{
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer-content ul li a:hover{
+    color: #0C0F74;
+}
+
+.social-media{
+    width: 18%;
+    margin: 0 auto;
+}
+
+.social-media-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.social-media-links li a{
+    color: #02033E;
+    font-size: 1.5rem;
+}
+
+.support ul{
+    margin-top: .5rem;
+}
+.footer-logo{
+    width: 12rem;
+}
+.footer-logo img{
+    width: 100%;
+}
+.left-footer h4{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.left-footer p{
+    line-height: .5rem;
+}
+.footer-content{
+    margin-top: 1rem;
+    margin-left: 1.9rem;
+}
+.footer-content h5{
+    font-weight: 700;
+    color: #F48529;
+}
+.footer-content ul li a{
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer-content ul li a:hover{
+    color: #0C0F74;
+}
+
+.social-media{
+    width: 18%;
+    margin: 0 auto;
+}
+
+.social-media-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.social-media-links li a{
+    color: #02033E;
+    font-size: 1.5rem;
+}
+
+.support ul{
+    margin-top: .5rem;
+}
+@media only screen and (max-width:600px){
+    .upper-content{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .buttons{
+        margin: 0 auto;
+    }
+    .footer-logo{
+        margin: 0 auto;
+    }
+    .left-footer{
+        text-align: center;
+    }
+    .footer-content{
+        text-align: center;
+    }
+    #navbarNav{
+        background-color: #ebebeb;
+    }
+    #navbarNav ul{
+        width: 100% !important;
+    }
+
+    #nav-bar{
+        padding: 0.5rem 0rem !important;
+    }
+
+    .navbar{
+        padding: 0 !important;
+    }
+
+    .navbar a{
+        margin-left: 1rem;
+    }
+
+    .navbar button{
+        margin-right: 1rem;
+    }
+    .box{
+        padding: 10rem 10rem !important;
+    }
+
+}
